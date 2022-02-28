@@ -38,7 +38,7 @@ extension ViewController {
         static let curveSeriesType = "line"
         static let xAxisCategory = ["Jan", "Feb", "Mar", "Apr", "May", "June"]
         // FIXME: if curveData is much greater than series data blow (eg. 200), curve line will not appear on the garph. BUT if the curve line are using a solid color(eg. red) instead of gradient color, curve line will display correctly regardless of the value. Check another FIXME tag blow
-        static let curveData = Array(repeating: 199, count: 6) // 200
+        static let curveData = Array(repeating: 199, count: 6) // change to 200, grandient curve line will disappear
         static let seriesAData = Array(repeating: 100, count: 6)
         static let seriesBData = Array(repeating: 100, count: 6)
     }
